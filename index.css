@@ -1,0 +1,159 @@
+/*Elian Francisco Treminio Parada TP20007 y Edwin Eismaeli Barrera Arce BA20010 Tarea 2*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-image: url(fondo.jpg);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.cn {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 200px;
+}
+
+.torre {
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  color: black;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  width: 35px;
+  height: 250px;
+  background-color: black;
+  margin: 150px auto 0 145px;
+  position: relative;
+  border-radius: 30px 30px 0px 0px;
+}
+
+#disco5 {
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  width: 300px;
+  height: 25px;
+  color: chocolate;
+  background-color: chocolate;
+  position: absolute;
+  margin-top: 200px;
+  left: -120px;
+  top: 25px;
+  border-radius: 30px;
+  cursor: grab;
+
+}
+
+#disco4 {
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  width: 250px;
+  height: 25px;
+  color: blueviolet;
+  background-color: blueviolet;
+  position: absolute;
+  margin-top: 175px;
+  left: -100px;
+  top: 25px;
+  border-radius: 30px;
+  cursor: grab;
+}
+
+#disco3 {
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  width: 200px;
+  height: 25px;
+  color: crimson;
+  background-color: crimson;
+  position: absolute;
+  margin-top: 150px;
+  left: -80px;
+  top: 25px;
+  border-radius: 30px;
+  cursor: grab;
+}
+
+#disco2 {
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  width: 150px;
+  height: 25px;
+  color: blue;
+  background-color: blue;
+  position: absolute;
+  margin-top: 125px;
+  left: -58px;
+  top: 25px;
+  border-radius: 30px;
+  cursor: grab;
+}
+
+#disco1 {
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  width: 100px;
+  height: 25px;
+  color: forestgreen;
+  background-color: forestgreen;
+  position: absolute;
+  margin-top: 100px;
+  left: -33px;
+  top: 25px;
+  border-radius: 30px;
+  cursor: grab;
+}
+
+.base {
+  height: 50px;
+  width: 1000px;
+  background-color: brown;
+  margin: 498px 0 0 0px;
+  border-radius: 30px;
+
+}
